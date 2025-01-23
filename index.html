@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script type="module" src="app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
-</body>
+    <div class="container">
+        <div class="row justify-content-md-center mt-3">
+            <div class="col-1">
+            </div>
+            <div class="col-10">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Factura</h5>
+                      </div>
+                    <div class="card-body">
+                        <div class="input-group input-group-sm mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">Numero de factura</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                          </div>
+                        
+                        <div class="col-12">
+                          <div class="card border-warning mb-3" style="max-width: 100%;">
+                              
+                              <div class="card-body">
+                                
+                                <div class="input-group input-group-sm mb-3">
+                                    
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">No ID</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                  </div>
+                                  
+                                  <div class="input-group input-group-sm mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Nombres</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Apellidos</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                  </div>
+                                  <div class="input-group input-group-sm mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Direccion</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                  </div>
+                                  <div class="input-group input-group-sm mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Email</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                  </div>
+                                <div class="container detailDoctors">
+
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                        <div class="col-12">
+                            <div class="card border-info mb-3" style="max-width: 100%;">
+                                <div class="card-header">informacion producto</div>
+                                <div class="card-body">
+                                    <div class="input-group input-group-sm mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">Cod producto</span>
+                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                      </div>
+                                      <div class="input-group input-group-sm mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
+                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                      </div>
+                                      <div class="input-group input-group-sm mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">Valor unitario</span>
+                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">Cantidad</span>
+                                        <input type="text" class="form-control" aria-label="Sizing example input" >
+                                      </div>
+                                    
+                                  <button type="button" class="btn btn-dark" id="addPlayer" style="width: 100%;">+</button>
+                                  <div class="container detailPlayers">
+
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card border-info mb-3" style="max-width: 100%;">
+                                <div class="card-header">Resumen Compra</div>
+                              
+                                    
+                                    <div class="input-group input-group-sm mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">Subtotal</span>
+                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                      </div>
+                                      <div class="input-group input-group-sm mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">IVA</span>
+                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                      </div>
+                                      <div class="input-group input-group-sm mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">Total</span>
+                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                      </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+
+                    
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            </div>
+          </div>
+    </div>
+    </body>
 </html>
